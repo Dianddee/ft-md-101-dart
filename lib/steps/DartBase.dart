@@ -1,4 +1,6 @@
 import 'package:ft_md_101_dart/Classinstance.dart';
+import 'package:ft_md_101_dart/steps/utils/DartPackage.dart';
+
 
 class DartBase{
   void run(){
@@ -7,6 +9,7 @@ class DartBase{
     _stepConf();
     _stepDataType();
     _stepClassInstance();
+    _stepPackage();
   }
   void _stepConf(){
     print('_stepConf: This is step 1');
@@ -32,5 +35,10 @@ class DartBase{
     ClassInstance ci = ClassInstance();
     ci.run();
 
+  }
+
+  void _stepPackage(){
+    DartPackage dp = DartPackage();
+    dp.run();
   }
 }
