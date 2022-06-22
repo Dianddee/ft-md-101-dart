@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:ft_md_101_dart/Classinstance.dart';
 import 'package:ft_md_101_dart/steps/utils/DartChild.dart';
 import 'package:ft_md_101_dart/steps/utils/DartMethod.dart';
@@ -5,8 +7,8 @@ import 'package:ft_md_101_dart/steps/utils/DartPackage.dart';
 import 'package:ft_md_101_dart/steps/utils/DartSignature.dart';
 
 
-class DartBase{
-  void run(){
+class DartBase {
+  void run() {
     print('DartBase: hello worlds!');
 
     _stepConf();
@@ -16,12 +18,14 @@ class DartBase{
     _stepMethod();
     _stepSignature();
     _stepInheritance();
+    _stepConditionalOperator();
   }
-  void _stepConf(){
+
+  void _stepConf() {
     print('_stepConf: This is step 1');
   }
 
-  void _stepDataType(){
+  void _stepDataType() {
     String str = 'st';
     int inVar = 1;
     double doubleVar = 1.1;
@@ -37,23 +41,22 @@ class DartBase{
     db._stepConf();
   }
 
-  void _stepClassInstance(){
+  void _stepClassInstance() {
     ClassInstance ci = ClassInstance();
     ci.run();
-
   }
 
-  void _stepPackage(){
+  void _stepPackage() {
     DartPackage dp = DartPackage();
     dp.run();
   }
 
-  void _stepMethod(){
+  void _stepMethod() {
     var dn = DartMethod();
     dn.run();
   }
 
-  void _stepSignature(){
+  void _stepSignature() {
     var ds = DartSignature('first var', "second var");
     ds.run();
     ds.setAndRun("first after set", 'second after set');
@@ -63,8 +66,40 @@ class DartBase{
     ds.run();
   }
 
-  void _stepInheritance(){
+  void _stepInheritance() {
     var ds = DartChild();
     ds.run();
+  }
+
+  void _stepConditionalOperator() {
+    var random = Random();
+    var intVar = random.nextInt(10);
+    var maxVar = 5;
+
+    print('_stepConditionalOperator: intVar is $intVar');
+
+    if (intVar > maxVar) {
+      print('_stepConditionalOperator: $intVar > $maxVar');
+    }
+
+    if (intVar < maxVar) {
+      print('_stepConditionalOperator: $intVar < $maxVar');
+    }
+
+    if (intVar != maxVar) {
+      print('_stepConditionalOperator: $intVar != $maxVar');
+    }
+
+    if (intVar == maxVar) {
+      print('_stepConditionalOperator: $intVar == $maxVar');
+    }
+
+    if (intVar % 2 == 0) {
+      print('_stepConditionalOperator: $intVar is event');
+    } else {
+      print('_stepConditionalOperator: $intVar is add');
+    }
+
+
   }
 }
