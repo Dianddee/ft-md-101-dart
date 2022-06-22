@@ -19,6 +19,7 @@ class DartBase {
     _stepSignature();
     _stepInheritance();
     _stepConditionalOperator();
+    _stepArray();
   }
 
   void _stepConf() {
@@ -99,6 +100,40 @@ class DartBase {
     } else {
       print('_stepConditionalOperator: $intVar is add');
     }
+
+  }
+
+  void _stepArray(){
+    var array = [];
+    array.add(1);
+    array.add('String value');
+    print('_StepArray: $array');
+
+    List<String> stringArray = [];
+    stringArray = List.filled(0,'fill');
+    stringArray = List<String>.empty();
+    stringArray = <String>[];
+
+    stringArray.add('value');
+    print('_stepArray: $stringArray');
+
+    stringArray.removeAt(0);
+    print('_stepArray: $stringArray');
+
+    stringArray.add('value');
+    print('_stepArray: $stringArray');
+    stringArray.remove('value');
+    print('_stepArray: $stringArray');
+
+    stringArray.add('value');
+    stringArray.add('value');
+    stringArray.add('value');
+    stringArray.add('value');
+    stringArray.add('value');
+
+    stringArray.forEach((e) => {
+      print('_stepArray: $e')
+    });
 
 
   }
