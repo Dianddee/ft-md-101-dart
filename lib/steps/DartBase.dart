@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:ft_md_101_dart/Classinstance.dart';
 import 'package:ft_md_101_dart/steps/utils/DartChild.dart';
+import 'package:ft_md_101_dart/steps/utils/DartConstructor.dart';
 import 'package:ft_md_101_dart/steps/utils/DartMethod.dart';
 import 'package:ft_md_101_dart/steps/utils/DartPackage.dart';
 import 'package:ft_md_101_dart/steps/utils/DartSignature.dart';
@@ -22,6 +23,7 @@ class DartBase {
     _stepArray();
     _stepLoop();
     _stepSwitch();
+    _stepConstructor();
   }
 
   void _stepConf() {
@@ -168,4 +170,12 @@ class DartBase {
         print('_stepSwitch: default - $intVal');
     }
 }
+
+  void _stepConstructor(){
+    DartConstructor dc = DartConstructor(1, 'str');
+    dc.run();
+
+    DartConstructor dc1 = DartConstructor(1, 'str', 1.1);
+    dc1.run();
+  }
 }
