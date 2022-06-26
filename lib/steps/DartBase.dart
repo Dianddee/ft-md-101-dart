@@ -5,6 +5,7 @@ import 'package:ft_md_101_dart/steps/tasks/Task1.dart';
 import 'package:ft_md_101_dart/steps/tasks/Task2.dart';
 import 'package:ft_md_101_dart/steps/tasks/Task3.dart';
 import 'package:ft_md_101_dart/steps/tasks/Task4.dart';
+import 'package:ft_md_101_dart/steps/tasks/Task5.dart';
 import 'package:ft_md_101_dart/steps/utils/DartAbstractChild.dart';
 import 'package:ft_md_101_dart/steps/utils/DartChild.dart';
 import 'package:ft_md_101_dart/steps/utils/DartConstructor.dart';
@@ -43,6 +44,7 @@ class DartBase {
     //Task2().run();
     //Task3().run();
     Task4().run(5);
+    Task5().run();
     //Task1().run();
   }
 
