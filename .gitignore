@@ -1,21 +1,257 @@
-# See https://www.dartlang.org/guides/libraries/private-files
-
-# Files and directories created by pub
-.dart_tool/
+build/last_build_run.json
+build/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+build/flutter_assets/NOTICES
+build/flutter_assets/fonts/MaterialIcons-Regular.otf
+build/flutter_assets/FontManifest.json
+build/flutter_assets/AssetManifest.json
+build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill
+build/00743b012668eb2620eb7f02eae0aa5a/gen_localizations.stamp
+build/00743b012668eb2620eb7f02eae0aa5a/gen_dart_plugin_registrant.stamp
+build/00743b012668eb2620eb7f02eae0aa5a/_composite.stamp
+.idea/vcs.xml
+.idea/runConfigurations/main_dart.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/libraries/KotlinJavaRuntime.xml
+.idea/libraries/Flutter_Plugins.xml
+.idea/libraries/Dart_SDK.xml
+.idea/libraries/Dart_Packages.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/.name
+.idea/.gitignore
+.dart_tool/version
+.dart_tool/package_config_subset
+.dart_tool/package_config.json
+.dart_tool/chrome-device/Default/WebStorage/QuotaManager-journal
+.dart_tool/chrome-device/Default/WebStorage/QuotaManager
+.dart_tool/chrome-device/Default/Web Data-journal
+.dart_tool/chrome-device/Default/Web Data
+.dart_tool/chrome-device/Default/Visited Links
+.dart_tool/chrome-device/Default/VideoDecodeStats/LOG.old
+.dart_tool/chrome-device/Default/VideoDecodeStats/LOG
+.dart_tool/chrome-device/Default/VideoDecodeStats/LOCK
+.dart_tool/chrome-device/Default/Trusted Vault
+.dart_tool/chrome-device/Default/Top Sites-journal
+.dart_tool/chrome-device/Default/Top Sites
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/MANIFEST-000001
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG.old
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOG
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/LOCK
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/CURRENT
+.dart_tool/chrome-device/Default/Sync Data/LevelDB/000003.log
+.dart_tool/chrome-device/Default/Site Characteristics Database/MANIFEST-000001
+.dart_tool/chrome-device/Default/Site Characteristics Database/LOG.old
+.dart_tool/chrome-device/Default/Site Characteristics Database/LOG
+.dart_tool/chrome-device/Default/Site Characteristics Database/LOCK
+.dart_tool/chrome-device/Default/Site Characteristics Database/CURRENT
+.dart_tool/chrome-device/Default/Site Characteristics Database/000003.log
+.dart_tool/chrome-device/Default/Shortcuts-journal
+.dart_tool/chrome-device/Default/Shortcuts
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/MANIFEST-000001
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG.old
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOG
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/LOCK
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/CURRENT
+.dart_tool/chrome-device/Default/shared_proto_db/metadata/000003.log
+.dart_tool/chrome-device/Default/shared_proto_db/MANIFEST-000001
+.dart_tool/chrome-device/Default/shared_proto_db/LOG.old
+.dart_tool/chrome-device/Default/shared_proto_db/LOG
+.dart_tool/chrome-device/Default/shared_proto_db/LOCK
+.dart_tool/chrome-device/Default/shared_proto_db/CURRENT
+.dart_tool/chrome-device/Default/shared_proto_db/000003.log
+.dart_tool/chrome-device/Default/Sessions/Tabs_13301436121459563
+.dart_tool/chrome-device/Default/Sessions/Tabs_13301192813992021
+.dart_tool/chrome-device/Default/Sessions/Tabs_13300909252543426
+.dart_tool/chrome-device/Default/Sessions/Tabs_13300826489224712
+.dart_tool/chrome-device/Default/Sessions/Session_13301439055110985
+.dart_tool/chrome-device/Default/Sessions/Session_13301192813865567
+.dart_tool/chrome-device/Default/Sessions/Session_13300909252418277
+.dart_tool/chrome-device/Default/Sessions/Session_13300833791162889
+.dart_tool/chrome-device/Default/Sessions/Session_13300724925213625
+.dart_tool/chrome-device/Default/Sessions/Session_13300556918418144
+.dart_tool/chrome-device/Default/Session Storage/MANIFEST-000001
+.dart_tool/chrome-device/Default/Session Storage/LOG.old
+.dart_tool/chrome-device/Default/Session Storage/LOG
+.dart_tool/chrome-device/Default/Session Storage/LOCK
+.dart_tool/chrome-device/Default/Session Storage/CURRENT
+.dart_tool/chrome-device/Default/Session Storage/000003.log
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index-dir/the-real-index
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/index
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/fa813c9ad67834ac_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/f1cdccba37924bda_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/67a473248953641b_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/4cb013792b196a35_0
+.dart_tool/chrome-device/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+.dart_tool/chrome-device/Default/Service Worker/Database/MANIFEST-000001
+.dart_tool/chrome-device/Default/Service Worker/Database/LOG.old
+.dart_tool/chrome-device/Default/Service Worker/Database/LOG
+.dart_tool/chrome-device/Default/Service Worker/Database/LOCK
+.dart_tool/chrome-device/Default/Service Worker/Database/CURRENT
+.dart_tool/chrome-device/Default/Service Worker/Database/000003.log
+.dart_tool/chrome-device/Default/Secure Preferences
+.dart_tool/chrome-device/Default/Safe Browsing Network/Safe Browsing Cookies-journal
+.dart_tool/chrome-device/Default/Safe Browsing Network/Safe Browsing Cookies
+.dart_tool/chrome-device/Default/Safe Browsing Network/NetworkDataMigrated
+.dart_tool/chrome-device/Default/PreferredApps
+.dart_tool/chrome-device/Default/Preferences
+.dart_tool/chrome-device/Default/optimization_guide_prediction_model_downloads/bd92bab1-fff7-40eb-a102-3694a165e312/model.tflite
+.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOG.old
+.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOG
+.dart_tool/chrome-device/Default/optimization_guide_model_metadata_store/LOCK
+.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG.old
+.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOG
+.dart_tool/chrome-device/Default/optimization_guide_hint_cache_store/LOCK
+.dart_tool/chrome-device/Default/Network/TransportSecurity
+.dart_tool/chrome-device/Default/Network/Reporting and NEL-journal
+.dart_tool/chrome-device/Default/Network/Reporting and NEL
+.dart_tool/chrome-device/Default/Network/NetworkDataMigrated
+.dart_tool/chrome-device/Default/Network/Network Persistent State
+.dart_tool/chrome-device/Default/Network/Cookies-journal
+.dart_tool/chrome-device/Default/Network/Cookies
+.dart_tool/chrome-device/Default/Network Action Predictor-journal
+.dart_tool/chrome-device/Default/Network Action Predictor
+.dart_tool/chrome-device/Default/Login Data-journal
+.dart_tool/chrome-device/Default/Login Data For Account-journal
+.dart_tool/chrome-device/Default/Login Data For Account
+.dart_tool/chrome-device/Default/Login Data
+.dart_tool/chrome-device/Default/LOG.old
+.dart_tool/chrome-device/Default/LOG
+.dart_tool/chrome-device/Default/LOCK
+.dart_tool/chrome-device/Default/Local Storage/leveldb/MANIFEST-000001
+.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG.old
+.dart_tool/chrome-device/Default/Local Storage/leveldb/LOG
+.dart_tool/chrome-device/Default/Local Storage/leveldb/LOCK
+.dart_tool/chrome-device/Default/Local Storage/leveldb/CURRENT
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000014.ldb
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000013.log
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000011.ldb
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000010.log
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000009.ldb
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000007.ldb
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000005.ldb
+.dart_tool/chrome-device/Default/Local Storage/leveldb/000003.log
+.dart_tool/chrome-device/Default/JumpListIconsRecentClosed/dc22a826-8fcd-4b07-a311-656eeb526d86.tmp
+.dart_tool/chrome-device/Default/JumpListIconsRecentClosed/bc56d758-5afb-4e1d-a9f7-4b9bfed10e9d.tmp
+.dart_tool/chrome-device/Default/JumpListIconsRecentClosed/1ff2ef9c-dbf9-4e67-a8c7-634e9331dfe0.tmp
+.dart_tool/chrome-device/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/MANIFEST-000001
+.dart_tool/chrome-device/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/LOG
+.dart_tool/chrome-device/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/LOCK
+.dart_tool/chrome-device/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/CURRENT
+.dart_tool/chrome-device/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/000003.log
+.dart_tool/chrome-device/Default/History-journal
+.dart_tool/chrome-device/Default/History
+.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db-journal
+.dart_tool/chrome-device/Default/heavy_ad_intervention_opt_out.db
+.dart_tool/chrome-device/Default/GCM Store/Encryption/MANIFEST-000001
+.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG.old
+.dart_tool/chrome-device/Default/GCM Store/Encryption/LOG
+.dart_tool/chrome-device/Default/GCM Store/Encryption/LOCK
+.dart_tool/chrome-device/Default/GCM Store/Encryption/CURRENT
+.dart_tool/chrome-device/Default/GCM Store/Encryption/000003.log
+.dart_tool/chrome-device/Default/File System/Origins/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/Origins/LOG.old
+.dart_tool/chrome-device/Default/File System/Origins/LOG
+.dart_tool/chrome-device/Default/File System/Origins/LOCK
+.dart_tool/chrome-device/Default/File System/Origins/CURRENT
+.dart_tool/chrome-device/Default/File System/Origins/000003.log
+.dart_tool/chrome-device/Default/File System/009/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/009/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/009/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/009/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/009/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/009/t/.usage
+.dart_tool/chrome-device/Default/File System/008/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/008/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/008/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/008/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/008/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/008/t/.usage
+.dart_tool/chrome-device/Default/File System/007/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/007/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/007/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/007/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/007/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/007/t/.usage
+.dart_tool/chrome-device/Default/File System/006/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/006/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/006/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/006/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/006/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/006/t/.usage
+.dart_tool/chrome-device/Default/File System/005/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/005/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/005/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/005/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/005/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/005/t/.usage
+.dart_tool/chrome-device/Default/File System/004/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/004/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/004/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/004/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/004/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/004/t/.usage
+.dart_tool/chrome-device/Default/File System/003/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/003/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/003/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/003/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/003/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/003/t/.usage
+.dart_tool/chrome-device/Default/File System/002/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/002/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/002/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/002/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/002/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/002/t/.usage
+.dart_tool/chrome-device/Default/File System/001/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/001/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/001/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/001/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/001/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/001/t/.usage
+.dart_tool/chrome-device/Default/File System/000/t/Paths/MANIFEST-000001
+.dart_tool/chrome-device/Default/File System/000/t/Paths/LOG
+.dart_tool/chrome-device/Default/File System/000/t/Paths/LOCK
+.dart_tool/chrome-device/Default/File System/000/t/Paths/CURRENT
+.dart_tool/chrome-device/Default/File System/000/t/Paths/000003.log
+.dart_tool/chrome-device/Default/File System/000/t/.usage
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG.old
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOG
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/EventDB/LOCK
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+.dart_tool/chrome-device/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+.dart_tool/chrome-device/Default/Favicons-journal
+.dart_tool/chrome-device/Default/Favicons
+.dart_tool/chrome-device/Default/Extension State/MANIFEST-000001
+.dart_tool/chrome-device/Default/Extension State/LOG.old
+.dart_tool/chrome-device/Default/Extension State/LOG
+.dart_tool/chrome-device/Default/Extension State/LOCK
+.dart_tool/chrome-device/Default/Extension State/CURRENT
+.dart_tool/chrome-device/Default/Extension State/000003.log
+.dart_tool/chrome-device/Default/Extension Scripts/MANIFEST-000001
+.dart_tool/chrome-device/Default/Extension Scripts/LOG.old
+.dart_tool/chrome-device/Default/Extension Scripts/LOG
+.dart_tool/chrome-device/Default/Extension Scripts/LOCK
+.dart_tool/chrome-device/Default/Extension Scripts/CURRENT
+.dart_tool/chrome-device/Default/Extension Scripts/000003.log
+.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG.old
+.dart_tool/chrome-device/Default/Download Service/EntryDB/LOG
+.dart_tool/chrome-device/Default/Download Service/EntryDB/LOCK
+.dart_tool/chrome-device/Default/databases/Databases.db-journal
+.dart_tool/chrome-device/Default/databases/Databases.db
+.dart_tool/chrome-device/Default/coupon_db/LOG.old
+.dart_tool/chrome-device/Default/coupon_db/LOG
+.dart_tool/chrome-device/Default/coupon_db/LOCK
+.dart_tool/chrome-device/Default/BudgetDatabase/LOG.old
+.dart_tool/chrome-device/Default/BudgetDatabase/LOG
+.dart_tool/chrome-device/Default/BudgetDatabase/LOCK
+.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG.old
+.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOG
+.dart_tool/chrome-device/Default/AutofillStrikeDatabase/LOCK
+.dart_tool/chrome-device/Default/Affiliation Database-journal
+.dart_tool/chrome-device/Default/Affiliation Database
+.dart_tool/chrome-device/Default/80d83e22-6b0f-4fa5-bf89-28d18159c45d.tmp
 .packages
-build/
-# If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
-
-# Directory created by dartdoc
-# If you don't generate documentation locally you can remove this line.
-doc/api/
-
-# Avoid committing generated Javascript files:
-*.dart.js
-*.info.json      # Produced by the --dump-info flag.
-*.js             # When generated by dart2js. Don't specify *.js if your
-                 # project includes source files written in JavaScript.
-*.js_
-*.js.deps
-*.js.map
